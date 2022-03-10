@@ -8,9 +8,9 @@ services:
       - ./.env
   web:
     build:
+      image: archema/yamdb:1.00
       context: ..
-      dockerfile: api_yamdb/Dockerfile
-    restart: always
+      restart: always
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
