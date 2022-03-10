@@ -5,6 +5,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.generics import get_object_or_404
 from rest_framework.validators import UniqueValidator
 from reviews.models import Category, Comment, Genre, Review, Title, User
+
 from api_yamdb.settings import VERIFICATION_EMAIL
 
 

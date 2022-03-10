@@ -12,8 +12,8 @@ from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .mixins import CreateListDestroyViewSet, PerformViewSet
-from .permissions import (AdminPermission, IsAuthorAdminModeratorOrReadOnly,
-                          IsAdminOrReadOnly)
+from .permissions import (AdminPermission, IsAdminOrReadOnly,
+                          IsAuthorAdminModeratorOrReadOnly)
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, LoginSerializer,
                           RegistrationSerializer, ReviewSerializer,
