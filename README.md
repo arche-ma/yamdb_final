@@ -4,6 +4,9 @@
 
 ![example workflow](https://github.com/arche-ma/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+# Ссылка на развернутый проект 
+
+http://51.250.29.38/admin/
 
 # Проект YaMDb
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Спорт» или «Видеоигры»).
