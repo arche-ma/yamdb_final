@@ -7,10 +7,9 @@ services:
     env_file:
       - ./.env
   web:
-    build:
-      image: archema/yamdb:1.00
-      context: ..
-      restart: always
+    image: archema/yamdb:1.00
+    context: ..
+    restart: always
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
