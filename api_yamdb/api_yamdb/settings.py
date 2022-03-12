@@ -14,6 +14,7 @@ ALLOWED_HOSTS = [
     '51.250.29.38',
     'web',
 ]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
